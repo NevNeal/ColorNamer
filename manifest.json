@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "ColorNamer",
+  "version": "3.0.0",
+  "description": "Click the icon, eyedrop any pixel, and get its name from a set of literary color names (plus the Pokedex colors).",
+  "action": {
+    "default_title": "Pick a color to name it"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "web_accessible_resources": [
+    {
+      "resources": ["colornames.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
