@@ -4,9 +4,9 @@ A Chrome extension that names any color on your screen. Click the icon, click a 
 
 ## Demo
 
-https://github.com/NevNeal/ColorNamer/raw/main/demo.mp4
+![ColorNamer demo](demo.gif)
 
-<video src="https://github.com/NevNeal/ColorNamer/raw/main/demo.mp4" controls width="360"></video>
+▶️ [Watch the full-quality video (demo.mp4)](demo.mp4)
 
 ## Install (2 minutes, no build needed)
 
